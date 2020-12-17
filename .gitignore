@@ -1,0 +1,21 @@
+# mypy
+.mypy_cache/
+
+
+*__pycache__
+
+
+migrations/*
+
+# virtualenv
+.venv
+venv/
+ENV/
+.vscode
+
+*.sqlite3
+
+gallery/
+
+migrations/
+

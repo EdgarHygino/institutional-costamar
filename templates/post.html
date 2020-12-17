@@ -1,0 +1,34 @@
+{% extends 'layout.html'%}
+
+
+{% block post %}
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">{{ post.title }}</h1>
+        <p class="lead text-muted">{{ posts.summary }}</p>
+        {% comment %} <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p> {% endcomment %}
+      </div>
+    </div>
+  </section>
+     <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary"></strong>
+          <h3 class="mb-0">{{ post.author.get_full_name }}</h3>
+          <div class="mb-1 text-muted">{{ post.created_at|date:'d, M Y'}}</div>
+          <p class="card-text mb-auto">{{ post.content|safe }} sdasdas</p>
+          <a href="/post/{{ post.pk }}" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="bd-placeholder-img" width="200" height="250" src="{{post.image.url}}" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+        </div>
+      </div>
+    </div>
+         
+{% endblock %}

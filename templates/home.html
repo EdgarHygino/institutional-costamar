@@ -1,0 +1,197 @@
+{% extends 'layout.html' %}
+{% block sub_header %}
+<main>
+{% load static %}
+
+ <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="{% static "images/pexels-lucas-pezeta-4515180.jpg"%}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>A Empreiteira Costa Mar</h1>
+            <p>Atua no mercado de construção civil e temos os melhores e mais qualificados profissionais do mercado, sempre a disposição para atender a solicitação do cliente</p>
+            <p><a class="btn btn-lg btn-primary" href="#abertura-1" role="button">Entenda</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="{% static "images/pexels-ivan-samkov-4491881.jpg"%}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Nós cuidamos para você!</h1>
+            <p>Temos um acervo enorme de proficionais e empresas para execulção do serviços, buscamos os melhores orçamentos do mercado e o cliente decide, nós faremos o acompanhamos de toda a obra até a entrega</p>
+            <p><a class="btn btn-lg btn-primary" href="#abertura-2" role="button">Ler Mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="{% static "images/pexels-pixabay-159358.jpg"%}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Não importa o tamanho da sua obra!</h1>
+            <p>Estamos preparado para entregar seu projeto com o menor prazo e a melhor qualidade.</p>
+            <p><a class="btn btn-lg btn-primary" href="#abertura-3" role="button">Conheça nossos projetos</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Proximo</span>
+    </a>
+  </div>
+</main>
+{% endblock %}
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+{% block container %}
+  <div class="container marketing">
+  {% load static %}
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+  <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Design</strong>
+          <h3 class="mb-0">Post title</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="bd-placeholder-img" width="200" height="250" src="{% static "images/pexels-pixabay-159358.jpg"%}" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <hr class="featurette-divider" id="abertura-0">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{% static "images/pexels-ivan-samkov-4491881.jpg"%}"></img>
+
+        <h2>Heading</h2>
+        <p>kjnvjnadsjbf andsfnboi asnf jnasiofa
+        dsaklfnkjad snfjkn adsjnfjkbdas ffknadsklfnjkadsbfb jk nsakjdf njkad sbjkfhjnsda jkfhnsadkbfn asm,nfjknad sjfbjk adsnjkfb
+        dasjbfjadsbhj</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{% static "images/pexels-thijs-van-der-weide-1094767.jpg"%}"></img>
+
+        <h2>Heading</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{% static "images/pexels-lucas-pezeta-4515180.jpg"%}"></img>
+
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+{% endblock %}
+    <!-- START THE FEATURETTES -->
+{% block main %}
+{% load static %}
+    <hr class="featurette-divider" id="abertura-1">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Quem somos<br> <span class="text-muted">A empreiteira Costa Mar realiza</span></h2>
+        <p class="lead">Assentamento de piso e azulejo no chão, banheiro, parede, porcelanato.
+Construção de reforma de casa, sobrado ou comércio, seja de alto padrão ou popular.
+Construção de mezanino metálico ou de madeira;
+Construção de Calçadas;
+Construção e Reforma de telhado de brasilit, colonial, francesa, romana, americana, entre outros.
+Reforma de Praças;
+Estrutura metálica para casas e galpões;
+Construção de galpão industrial, pré moldado, metálico ou de alvenaria;
+Construção de Pisos Intertravados;
+Construção de decks de madeira e metálico, suspenso, para piscina, jardim.
+Instalação de drywall de gesso para paredes, teto, porta;
+Pinturas de parede interna e externa.</p>
+      </div>
+      <div class="col-md-5">
+        {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> {% endcomment %}
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  src="{% static "images/pexels-ivan-samkov-4491881.jpg"%}"></img>
+        
+        {% comment %} <img max-width="auto" height="100%" src="{% static "images/brett-jordan-PFr50OBMowU-unsplash.jpg"%}"></img> {% endcomment %}
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="abertura-2">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  src="{% static "images/pexels-lucas-pezeta-4515180.jpg"%}" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Empreiteira Costa Mar</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+        
+        {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> {% endcomment %}
+        {% comment %} <img max-width="auto" height="100%" src="{% static "images/milivoj-kuhar-Te48TPzdcU8-unsplash.jpg"%}"></img> {% endcomment %}
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="abertura-3">
+
+    <div class="row featurette" >
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  src="{% static "images/pexels-thijs-van-der-weide-1094767.jpg" %}" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Empreiteira Costa Mar</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+
+        {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"> {% endcomment %}
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+{% endblock %}
+
+
+
+
+
+
